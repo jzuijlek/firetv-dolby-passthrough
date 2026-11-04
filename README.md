@@ -1,5 +1,7 @@
 # Fire TV Dolby Digital & DD+ Passthrough v0.3.1
 
+The same refresh-rate restore is now in the Fire TV AV fork, [v0.2.2](https://github.com/jzuijlek/firetv-passthrough/releases/tag/v0.2.2). That zip is the one to use when you want signde's combined Dolby and DTS module plus this fix. It upgrades module id `firetv_passthrough` and disables this Dolby-only module. This repository stays the Dolby-only package, module id `gazelle_ddplus_bypass`.
+
 Magisk module that keeps HDMI bypass (`hdmi_format=6`) on the Fire TV Cube 3 (`gazelle`) and the Fire TV Stick 4K Max 2nd gen (`karat`). Bypass leaves Dolby Digital and DD+, including DD+ Atmos, as the original bitstream instead of letting Fire OS convert them to Dolby MAT.
 
 v0.3.0 was posted by [signde](https://xdaforums.com/m/signde.654514/) on the [Cube unlock thread](https://xdaforums.com/t/unlock-magisk-twrp-firetv-3nd-gen-cube-gazelle-ps7717.4800530/) as an XDA attachment. It was not a GitHub release. Later DTS and Fire TV AV packages moved to [signde/firetv-passthrough](https://github.com/signde/firetv-passthrough). This repository publishes the Dolby-only module the same way those later packages are published: source here, installable zip on the release.
